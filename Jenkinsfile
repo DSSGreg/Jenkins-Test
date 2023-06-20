@@ -13,7 +13,7 @@ node {
     }
     
     stage('Initialize Docker'){         
-	  def dockerHome = tool 'MyDocker'         
+	  def dockerHome = tool 'jenkins docker test'         
 	  env.PATH = "${dockerHome}/bin:${env.PATH}"     
     }
     
